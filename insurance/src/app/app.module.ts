@@ -23,6 +23,8 @@ import { ShowPolicyDetailsComponent } from './show-policy-details/show-policy-de
 import { FilterPipe } from './filter.pipe';
 import { ShowHealthPolicyComponent } from './show-health-policy/show-health-policy.component';
 import { DetailsComponent } from './details/details.component';
+import { LifeCycleComponent } from './life-cycle/life-cycle.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { DetailsComponent } from './details/details.component';
     ShowPolicyDetailsComponent,
     FilterPipe,
     ShowHealthPolicyComponent,
-    DetailsComponent
+    DetailsComponent,
+    LifeCycleComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
