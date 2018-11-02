@@ -1,0 +1,24 @@
+<div style="text-align: center">
+    <h1>
+        Popular Policies
+    </h1>
+   
+    <table class="table table-striped table-bordered table-light">
+        <tr >
+            <td *ngFor = 'let detail of policyDetails'>
+                {{detail.policyName}}
+            </td>
+        </tr>
+        <tr >
+                <td *ngFor = 'let detail of policyDetails'>
+                    {{detail.policyDescription}}
+                </td>
+        </tr>
+    </table>
+    <div>
+        <h2>What our Customers Say !</h2>
+        <p>{{feedback1}}</p>
+        <p>{{feedback2}}</p>
+        <app-testimony></app-testimony>
+    </div>
+</div>

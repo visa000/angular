@@ -1,0 +1,12 @@
+<form [formGroup] = 'loginForm' (ngSubmit) = 'validate()'>
+
+    <ng-container *ngFor ='let config of formConfig'>
+        <div class='form-group'>
+            <label>{{config.label}}</label>
+            <input type={{config.type}} name={{config.name}} formControlName={{config.name}}>
+        </div>
+    </ng-container>
+    <div *ngIf='loginForm.invalid && loginForm.untouched'>User Name and Password Required</div>
+    <p style="color: red">{{errorMessage}}</p>
+    <input type="submit" value="signin" class="btn btn-info">
+</form>

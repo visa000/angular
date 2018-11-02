@@ -1,0 +1,13 @@
+<div>
+  <div style="height: 200px">
+    <app-header></app-header>
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  <div style="height: 150px">
+    <app-footer></app-footer>
+  </div>
+</div>
+<article></article>
+<button appAddElement [elementToAdd] = "'p'" [elementText] = "'Added by Directive'">Add</button>

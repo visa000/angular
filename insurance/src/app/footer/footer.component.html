@@ -1,0 +1,12 @@
+<footer>
+  <div>
+    <p>{{follow}}</p>
+  </div>
+  <div>
+    <ul>
+        <li *ngFor = 'let link of links' >
+           <a href={{link.linkText}} class={{link.linkStyle}} style="font-size: 20px">{{link.linkText}}</a>
+        </li>
+  </ul>
+  </div>
+</footer>

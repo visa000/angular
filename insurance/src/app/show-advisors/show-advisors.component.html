@@ -1,0 +1,16 @@
+<div style="text-align: center">
+    <h1>Our Insurance Advisors</h1>
+</div>
+
+<table class="table table-striped table-bordered">
+    <tr>
+        <th style="text-align: center">Id</th>
+        <th style="text-align: center">Name</th>
+        <th style="text-align: center">Mobile Number</th>
+    </tr>
+    <tr *ngFor = 'let advisor of advisorList'>
+        <td style="text-align: center">{{advisor.id}}</td>
+        <td style="text-align: center">{{advisor.name}}</td>
+        <td style="text-align: center">{{advisor.mobileNumber}}</td>
+    </tr>    
+</table>

@@ -1,0 +1,11 @@
+<nav class = "navbar navbar-expand bg-secondary navbar-dark"> 
+  <ul class="navbar-nav">
+    <li *ngFor= 'let link of linksFromParent' class="nav-item">
+      <a [routerLink]="[link.linkRef]" [class]='link.linkStyle' appHighLight>{{link.linkText}}</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav">
+      <li *ngIf='showLogin' class="nav-item"><a [routerLink]="['login']" class="btn btn-info" appHighLight>Login</a></li>
+      <li *ngIf='showLogout' class="nav-item"><a [routerLink]="['logout']" class="btn btn-info" appHighLight>Logout</a></li>
+   </ul>
+</nav>
