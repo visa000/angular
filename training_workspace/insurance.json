@@ -1,0 +1,145 @@
+{
+  "lifeInsurance": [
+    {
+      "id": 101,
+      "policyHolderName": "Ramesh",
+      "policyAmount": "34556",
+      "maturityDate": "2020-10-12"
+    },
+    {
+      "id": 102,
+      "policyHolderName": "Suresh",
+      "policyAmount": 550000,
+      "maturityDate": "2022-9-2"
+    },
+    {
+      "id": 103,
+      "policyHolderName": "Akil",
+      "policyAmount": 650000,
+      "maturityDate": "2024-8-1"
+    },
+    {
+      "id": 104,
+      "policyHolderName": "Sam",
+      "policyAmount": 500000,
+      "maturityDate": "2023-7-8"
+    },
+    {
+      "id": 105,
+      "policyHolderName": "Jacob",
+      "policyAmount": 900000,
+      "maturityDate": "2026-6-6"
+    },
+    {
+      "id": "300",
+      "policyHolderName": "vishnu",
+      "policyAmount": "123565",
+      "maturityDate": "2018-11-03"
+    },
+    {
+      "id": "777",
+      "policyHolderName": "james bond",
+      "policyAmount": "007",
+      "maturityDate": "2018-09-13"
+    },
+    {
+      "id": "123",
+      "policyHolderName": "spiderman",
+      "policyAmount": "12356",
+      "maturityDate": "2018-11-03"
+    },
+    {
+      "id": "ZhKrsAn",
+      "policyHolderName": "sdfasdf",
+      "policyAmount": 0,
+      "maturityDate": "2018-11-01T12:01:50.511Z"
+    },
+    {
+      "id": "BN7H_2k",
+      "policyHolderName": "",
+      "policyAmount": 0,
+      "maturityDate": "2018-11-02T07:36:59.074Z"
+    },
+    {
+      "id": "SNPzkM4",
+      "policyHolderName": "",
+      "policyAmount": 0,
+      "maturityDate": "2018-11-02T07:36:59.074Z"
+    },
+    {
+      "id": "MpJ5JpA",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    },
+    {
+      "id": "Dp9u5iV",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    },
+    {
+      "id": "FSEgepE",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    },
+    {
+      "id": "4WtVSOo",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    },
+    {
+      "id": "FPx4e~H",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    },
+    {
+      "id": "NtF1FJl",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    },
+    {
+      "id": "Uavi0Gr",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    },
+    {
+      "id": "7wqxy~e",
+      "policyHolderName": null,
+      "policyAmount": null,
+      "maturityDate": null
+    }
+  ],
+  "advisors": [
+    {
+      "id": 201,
+      "name": "kumar",
+      "mobileNumber": 9012734980
+    },
+    {
+      "id": 202,
+      "name": "shiva",
+      "mobileNumber": 9012734334
+    },
+    {
+      "id": 203,
+      "name": "vasu",
+      "mobileNumber": 9012734923525
+    },
+    {
+      "id": 204,
+      "name": "sudheer",
+      "mobileNumber": 9012734580
+    },
+    {
+      "id": 205,
+      "name": "rajesh",
+      "mobileNumber": 123553334
+    }
+  ]
+}
