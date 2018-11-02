@@ -12,8 +12,7 @@ export class LoginComponent implements OnInit {
 
   loginForm:FormGroup;
   errorMessage:string;
-
-  
+ 
   formConfig:any = [
     {type: 'text', name: 'userName', label: 'User Name', constraint:Validators.required},
     {type: 'password', name: 'passWord', label: 'Pass Word', constraint:Validators.required}
