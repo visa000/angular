@@ -1,0 +1,11 @@
+{
+    "mobileplans" : [
+        {"price" : 199, "validity" : "28days", "voice": "unlimited", "data" : "2gb per day"},
+        {"price" : 299, "validity" : "28days", "voice": "unlimited", "data" : "3gb per day"}
+    ],
+
+    "transactionhistory" : [
+        {"plan" : 199, "date" : "31-oct-2018", "amount": "199"},
+        {"plan" : 299, "date" : "31-dec-2018", "amount": "299"}
+    ]
+}

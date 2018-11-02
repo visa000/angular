@@ -1,0 +1,23 @@
+<div>
+    <img src='../../assets/images/telecom.jpg' class="logo"/>
+    <h1 style="text-align: center">PRABHA TELECOM</h1> 
+</div>
+<div>
+  <h1 style="text-align: center">
+      PREPAID RECHARGE PLANS
+  </h1>
+</div>
+<table class="table table-striped table-bordered">
+  <tr>
+    <th>price</th>
+    <th>validity</th>
+    <th>voice</th>
+    <th>data</th>
+  </tr>
+  <tr *ngFor='let mobilePlan of rechargePlans'>
+    <td>{{mobilePlan.price}}</td>
+    <td>{{mobilePlan.validity}}</td>
+    <td>{{mobilePlan.voice}}</td>
+    <td>{{mobilePlan.data}}</td>
+  </tr>
+</table>
